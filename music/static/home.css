@@ -1,0 +1,267 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+body {
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+#musicplayer{
+	position: absolute;
+	height:400px;
+	width:480px;
+	margin:20px;
+}
+	
+
+.scroll{
+    scrollbar-face-color: #367CD2;
+    scrollbar-shadow-color: #FFFFFF;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #FFFFFF;
+}
+
+/* Let's get this party started */
+.scroll::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+p {
+	color:white;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+
+#details {
+	position:relative;
+	margin:0;
+	padding:0;
+	height:40px;
+	background-color: #191919;
+	
+}
+
+#buttons {
+	border-top:1px solid black;
+	position:relative;
+	height:30px;
+	background-color:		#696969;
+	margin:0;
+	padding:0;
+	
+}
+#buttons table {
+	margin:5px 5px 5px 0;
+}
+#buttons progress {
+	position:relative;
+	width:380px;
+}
+#buttons p {
+	width:45px;
+}
+
+
+#menu {
+	position:relative;
+	margin:0;
+	background-color:		#696969;
+	height:45px;
+}
+
+#menu button {
+	width:65px;
+	height:30px;
+	margin:10px 7px 7px;
+	color:white;
+	background-color: black;
+}
+#volume {
+	width:70px;
+	position:relative;
+	top:30%;
+	float:right;
+	right:5%;
+	
+}
+#category {
+	height:40px;
+	margin:0;
+	padding:0;
+	background-color: black;
+}
+#category ul {
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    
+}
+
+#category li {
+    float: left;
+    width:110px;
+}
+#category li:last-child {
+	border-right:none;
+}
+#category li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin:6px 4px 6px 4px;
+    padding: 5px 13px;
+    background-color:	#F8F8FF;
+    color:black;
+}
+#category li a:hover { 
+    background-color: red;
+}
+#songlist {
+	padding:0;
+	margin:0;
+	width:100%;
+	height:235px;
+	overflow-y:scroll;
+	background-color: black;
+}
+
+#songlist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+#songlist li a {
+    display: block;
+    
+    padding:20px;
+    text-decoration: none;
+}
+
+#songlist li {
+	padding:0px;
+	margin:0px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+#songlist li:last-child {
+    border-bottom: none;
+}
+#songlist tr,td,table {
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+#songlist table {
+	border:1;
+}
+#songlist button {
+	width:100%;
+	height:40px;
+    background-color:	#191919; /* Green */
+    border: none;
+    color: white;
+    padding: 0px 32px 0 0;
+    margin:0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#dbutton {
+	background-image: url('del.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#songlist2 {
+	background-image: url('header.jpg');
+	background-repeat: no-repeat;
+}
+#songlist2 button {
+	
+    height: 25px;
+    margin:7px;
+    background-color: #191919;
+    color:white;
+}
+
+#td,#tr,#table {
+	padding:0;
+	margin:0;
+}
+#back {
+	width:50px;
+}
+
+#ptr {
+	color:white;
+	margin:0;
+	padding:0px;
+}
+#ptd1 {
+	width:5%;
+	margin:0;
+	text-align: center;
+	text-decoration: none;
+	background-color:	#191919;
+}
+#ptd2 {
+	width:140px;
+	margin:0;
+	padding: 10px 32px 0 0;
+	text-align: center;
+	text-decoration: none;
+	background-color:	#191919;
+}
+#input,#label {
+	margin:0;
+	padding:0;
+}
+#pt {
+
+	table-layout: fixed;
+}
+#mood {
+	margin:10px 90px;
+}
+#mood button {
+	width:70px;
+	height:30px;
+	background-color: black;
+	color:white;
+}
+#photo {
+	position: absolute;
+	right:10px;
+	left:900px;
+	top:150px;
+	bottom:100px;
+	border:1px solid black;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+
+
